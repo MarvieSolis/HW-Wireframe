@@ -9,7 +9,7 @@ body {
 
 
 header {
-    width: 495px;
+    width: 100%;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
@@ -19,7 +19,7 @@ header {
 
 
 nav {
-    width: 495px;
+    width: 100%;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
@@ -29,7 +29,6 @@ nav {
 
 
 nav {
-    width: 495px;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
@@ -39,14 +38,13 @@ nav {
 
 
 body #section {
-    width: 287px;
+    width: 495px;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
-    margin: auto;
     margin-top: 10px;
+    display: inline-block;
     float: left;
-    margin-left: 207px;
 }
 
 body #section #article {
@@ -71,25 +69,26 @@ body #section #article #p {
 }
 
 body #aside {
-    width: 149px;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
     margin: 10px;
-    float: left;
     padding-bottom: 238px;
+    display: inline-block;
+    width: 35%;
+    float: left;
+    overflow: auto;
 }
 
 
 
 footer {
-    width: 495px;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
     margin: auto;
     margin-top: 5px;
     float: left;
-    margin-left: 207px;
+    width: 100%;
 }
 
