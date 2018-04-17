@@ -9,7 +9,7 @@ body {
 
 
 header {
-    width: 100%;
+    clear: both;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
@@ -19,7 +19,7 @@ header {
 
 
 nav {
-    width: 100%;
+    clear: both;
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
@@ -43,52 +43,49 @@ body #section {
     padding: 25px;
     text-align: center;
     margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     display: inline-block;
     float: left;
 }
+
 
 body #section #article {
     background-color: #777;
     color: #ebebeb;
-    padding: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 45px;
 }
 
+
 body #section #article #h {
-    background-color: #ebebeb;
+    background-color:#ebebeb;
     color: #777;
-    padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 25px;
 }
+
 
 body #section #article #p {
     background-color: #ebebeb;
     color: #777;
-    padding: 10px;
     margin-top: 10px;
-}
-
-body #aside {
-    background-color: #ebebeb;
     padding: 25px;
-    text-align: center;
-    margin: 10px;
-    padding-bottom: 238px;
-    display: inline-block;
-    width: 35%;
-    float: left;
-    overflow: auto;
 }
 
+ body aside {
+     background-color: #ebebeb;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     float: right;
+     padding: 25px;
+     width: 350px;
+     padding-bottom: 308px;
+ }
 
-
-footer {
-    background-color: #ebebeb;
-    padding: 25px;
-    text-align: center;
-    margin: auto;
-    margin-top: 5px;
-    float: left;
-    width: 100%;
-}
-
+ footer {
+     padding: 25px;
+     background-color: #ebebeb;
+     clear: both;
+ }
